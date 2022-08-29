@@ -7,7 +7,7 @@ function requestData(url, successCallback, errorCallback) {
             let errorMessage = '失败'
             errorCallback(errorMessage)
         }
-    }, 3000);
+    }, 1000);
 }
 
 requestData('kobe', (res) => {
@@ -15,3 +15,4 @@ requestData('kobe', (res) => {
 }, (err) => {
     console.log(err)
 })
+//good code!
